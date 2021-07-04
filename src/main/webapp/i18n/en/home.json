@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "Welcome, Java Hipster!",
+    "subtitle": "This is your homepage",
+    "logged": {
+      "message": "You are logged in as user \"{{username}}\"."
+    },
+    "question": "If you have any question on Template:",
+    "link": {
+      "homepage": "Template homepage",
+      "stackoverflow": "Template on Stack Overflow",
+      "bugtracker": "Template bug tracker",
+      "chat": "Template public chat room",
+      "follow": "follow @Template on Twitter"
+    },
+    "like": "If you like Template, don't forget to give us a star on",
+    "github": "GitHub"
+  }
+}
