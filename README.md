@@ -3,7 +3,9 @@
 This application contains a react component library template. Which can be accessed in another react application as follows.
 
 ```
-window.sharedComponent.['ComponentName']
+const Component = window.sharedComponent.['ComponentName'];
+
+return <Component />
 ```
 
 ## Development
