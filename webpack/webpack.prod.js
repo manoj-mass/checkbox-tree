@@ -15,14 +15,14 @@ module.exports = webpackMerge(commonConfig({ env: ENV }), {
   // devtool: 'source-map', // Enable source maps. Please note that this will slow down the build
   mode: ENV,
   entry: {
-    main: './src/main/webapp/app/index',
+    main: './src/main/webapp/root/index',
   },
   output: {
     path: utils.root('target/static/'),
     filename: 'app/[name].[hash].bundle.js',
     chunkFilename: 'app/[name].[hash].chunk.js',
     libraryTarget: 'umd',
-    library: 'sharedComponent',
+    library: 'checkboxtree',
     publicPath: '/',
   },
   module: {
